@@ -1,0 +1,32 @@
+("quicklisp" .
+ (:class qlot.source.ql:source-ql-all
+  :initargs (:project-name "quicklisp" :%version :latest)
+  :version "2017-05-16"))
+("mito" .
+ (:class qlot.source.github:source-github
+  :initargs (:project-name "mito" :repos "fukamachi/mito" :ref nil :branch nil :tag nil)
+  :version "github-96141e974342fde64338f65e10769cf5f971f6d7"
+  :repos "fukamachi/mito"
+  :url "https://github.com/fukamachi/mito/archive/96141e974342fde64338f65e10769cf5f971f6d7.tar.gz"
+  :ref "96141e974342fde64338f65e10769cf5f971f6d7"))
+("utopian" .
+ (:class qlot.source.github:source-github
+  :initargs (:project-name "utopian" :repos "fukamachi/utopian" :ref nil :branch nil :tag nil)
+  :version "github-8e3903cdadb63bcc24cc4f3dcf2248e4d442ddeb"
+  :repos "fukamachi/utopian"
+  :url "https://github.com/fukamachi/utopian/archive/8e3903cdadb63bcc24cc4f3dcf2248e4d442ddeb.tar.gz"
+  :ref "8e3903cdadb63bcc24cc4f3dcf2248e4d442ddeb"))
+("sxql" .
+ (:class qlot.source.github:source-github
+  :initargs (:project-name "sxql" :repos "fukamachi/sxql" :ref nil :branch nil :tag nil)
+  :version "github-aa0187797b08cc09e40b27f02f09f7776cd674d0"
+  :repos "fukamachi/sxql"
+  :url "https://github.com/fukamachi/sxql/archive/aa0187797b08cc09e40b27f02f09f7776cd674d0.tar.gz"
+  :ref "aa0187797b08cc09e40b27f02f09f7776cd674d0"))
+("clack-errors" .
+ (:class qlot.source.github:source-github
+  :initargs (:project-name "clack-errors" :repos "eudoxia0/clack-errors" :ref nil :branch nil :tag nil)
+  :version "github-6ae28fefe91373b5a667801247021fd3ace31ba2"
+  :repos "eudoxia0/clack-errors"
+  :url "https://github.com/eudoxia0/clack-errors/archive/6ae28fefe91373b5a667801247021fd3ace31ba2.tar.gz"
+  :ref "6ae28fefe91373b5a667801247021fd3ace31ba2"))
